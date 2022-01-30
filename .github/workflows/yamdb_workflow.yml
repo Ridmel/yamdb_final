@@ -41,7 +41,8 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           path: ./api_yamdb
-          file: ./api_yamdb/Dockerfile
+          dockerfile: ./api_yamdb/Dockerfile
+#          file: ./api_yamdb/Dockerfile
 #          context: ./api_yamdb
           push: true
           tags: ridmel/api_yamdb_web:latest
