@@ -56,8 +56,9 @@ jobs:
           username: ${{ secrets.HOST_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
+          script_stop: true
           script: |
-            sudo docker pull ridmel/api_yamdb_web:latest
+            sudo docke pull ridmel/api_yamdb_web:latest
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
