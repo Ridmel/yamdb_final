@@ -4,7 +4,7 @@ on:
   push:
     branches: 
       - master
-#jobs:
+jobs:
 #  tests:
 #    name: Tests
 #    runs-on: ubuntu-latest
