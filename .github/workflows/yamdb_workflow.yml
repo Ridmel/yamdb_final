@@ -40,7 +40,6 @@ jobs:
       - name: Build and push to Docker Hub
         uses: docker/build-push-action@v2
         with:
-#          file: ./Dockerfile
           context: ./api_yamdb
 #          context: "{{defaultContext}}:api_yamdb"
           push: true
@@ -58,7 +57,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           script: |
-            sudo docekr pull ridmel/api_yamdb_web:latest
+            sudo docker pull ridmel/api_yamdb_web:latest
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
