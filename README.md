@@ -35,7 +35,7 @@ API (Django REST framework) площадки для размещения рец�
  Чтобы заполнить базу данных тестовыми записями (фикстурами), выполнить из `../yamdb_final/infra/`:
  
 
-    docker exec -i <container_id> python manage.py loaddata --format=json - < fixtures.json
+    docker exec -i ridmel_web_1 python manage.py loaddata --format=json - < fixtures.json
 \
 Теперь сайт доступен через браузер в том числе и по локальному адресу `http//:127.0.0.1/`\
 Документация API (redoc) `http//:127.0.0.1/redoc/`\
