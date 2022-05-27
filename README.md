@@ -1,6 +1,8 @@
+## yamdb_final
+
 API (Django REST framework) площадки для размещения рецензий и отзывов на фильмы, музыку и литературу с готовой инфраструктурой (Nginx, Gunicorn, PostgreSQL), с настроенным CI/CD workflow (GitHub actions), с размещением в Docker контейнерах.  
-
-
+<br />
+<br />
 
 ### *Запуск в контейнере*
 
