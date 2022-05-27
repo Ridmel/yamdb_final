@@ -1,11 +1,11 @@
 ## yamdb_final
 [![Test, build, deploy](https://github.com/Ridmel/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/Ridmel/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
-API (Django REST framework) площадки для размещения рецензий и отзывов на фильмы, музыку и литературу с готовой инфраструктурой (Nginx, Gunicorn, PostgreSQL), с настроенным CI/CD workflow (GitHub actions), с размещением в Docker контейнерах.
-\
-Сайт доступен по адресу http://rrrrrrrrrrrready.ml/api/v1/
+API (Django REST framework) площадки для размещения рецензий и отзывов на фильмы, музыку и литературу с готовой инфраструктурой (Nginx, Gunicorn, PostgreSQL), с настроенным CI/CD workflow (GitHub actions), с размещением в Docker контейнерах.  
 
-### *Как запустить в контейнере*
+
+
+### *Запуск в контейнере*
 
 Клонировать репозиторий:
 
